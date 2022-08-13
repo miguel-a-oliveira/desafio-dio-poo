@@ -11,6 +11,7 @@ public class Mentoria extends Conteudo {
 
     @Override
     public double calcular_xp() {
+        //quando iniciar uma mentoria o XP padrao sera somado por 20
         return XP_PADRAO + 20d;
     }
 

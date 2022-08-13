@@ -7,13 +7,19 @@ import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
+
+        //instancia do objecto Curso
         Curso curso = new Curso();
+
+        //instancia do objecto Mentoria
         Mentoria mentoria = new Mentoria();
 
+        //atribui valores aos atributos do Curso atraves do metodo <<set>>
         curso.setTitulo("POO");
         curso.setCarga_horaria(150);
         curso.setDescricao("Neste curso ira adquirir conhecimentos do paradigma orientado a objectos na ling Java");
 
+        //atribui valores aos atributos da Mentoria atraves do metodo <<set>>
         mentoria.setTitulo("Como ter sucesso neste curso");
         mentoria.setDescricao("Podera expor as suas duvidas em relacao ao curso");
         mentoria.setData(LocalDate.ofYearDay(2022,20));
@@ -21,12 +27,14 @@ public class Main {
 //        System.out.println(curso);
 //        System.out.println(mentoria);
 
+        //instancia do objecto BootCamp
         BootCamp bootcamp = new BootCamp();
         bootcamp.setNome("Dev Java");
-        bootcamp.setDescricao("Decsricao do BootCamp");
+        bootcamp.setDescricao("Descricao do BootCamp");
         bootcamp.getConteudos().add(curso);
         bootcamp.getConteudos().add(mentoria);
 
+        //instancia do objecto Dev
         Dev devJoao = new Dev();
         devJoao.setNome("Joao");
         devJoao.inscrever_bootcamp(bootcamp);

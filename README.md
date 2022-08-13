@@ -1,0 +1,2 @@
+Descrição do Desafio
+O desafio consistia em desmistificar a Programação Orientada a Objetos (POO) com Java através da prática dos conceitos fundamentais. Para isso, os pilares da OO são devidamente formalizados: Abstração, Encapsulamento, Herança e Polimorfismo. Neste desafio, foi possível desenvolver a capacidade de abstração com um problema real e implementar as evoluções relevantes 

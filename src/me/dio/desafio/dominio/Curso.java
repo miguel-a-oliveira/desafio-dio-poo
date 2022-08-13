@@ -9,6 +9,7 @@ public class Curso extends Conteudo {
 
     @Override
     public double calcular_xp() {
+        //XP PADRAO sera multiplicado pela carga horaria ao concluir um curso
         return XP_PADRAO * carga_horaria;
     }
 
@@ -21,6 +22,7 @@ public class Curso extends Conteudo {
                 '}';
     }
 
+    //Getters & Setters
     public int getCarga_horaria() {
         return carga_horaria;
     }
